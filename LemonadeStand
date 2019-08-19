@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main{
+
+     public static void main(String []args){
+        System.out.println("Hello fellow customer, how many cups of lemonade would you like?");
+    
+    Scanner scan = new Scanner (System.in);
+    int cups = scan.nextInt();
+    System.out.println("That will be $" + cups); 
+    
+    
+    
+
+     }
+}
